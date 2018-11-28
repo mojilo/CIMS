@@ -1,0 +1,41 @@
+# Name:
+# Monthly Salary
+str Emp_name
+
+print("'Welcome to count employee's total salary'")  # Welcome Note
+print("Enter Name of empoyee : "Emp_name)
+print("Enter Monthely fixed salary : ", salary)  # Access to fixed salary
+print("Enter working minutes for a day : ", working_minutes)
+# counting salary per hour
+salary_per_day = salary / 30  # 1Day salary count
+salary_per_hour = salary_per_day / working_minutes  # Salary per hour
+
+# holiday Logic
+print("Total leves or holiday taken : ", holiday)
+if (holiday == 0):
+    salary += 300
+elif holiday == 1:
+    salary = salary
+elif holiday > 1:
+    total_leave = holiday / 2
+
+# half day count
+print("Enter total half day count : ", halfday)
+if halfday > 1:
+    halfday_to_fullday = 2 * halfday
+
+# Penctuality
+
+print("Enter Late Timing : ", late)
+if late == 0:salary = ( 10/salary)*100 # 10 % calculation logic
+elif late > 0 and late < 120: salary = ( 5 / salary) * 100 # 5 % calculation logic
+
+# Counting Extra days or sunday
+print("Enter if working on sunday or any extra days : ", extra_day)
+# add logic what to ciunt on extra_day
+
+# count overtime or latetime
+
+# total
+print(" Total Process ")
+# total_salary = salary + holiday  + extra_day + time_diff + halffday
