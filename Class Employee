@@ -1,0 +1,55 @@
+# Employee all reequired fields
+class Employee:
+    'Emp_name,salary,working_minute,holiday,halfday,latetime,overtime'
+
+    def __init__(self,Emp_name,salary,working_minute,holiday,halfday,latetime,overtime):
+        self.Emp_name = Emp_name
+        self.salary = salary
+        self.holiday = holiday
+        self.halfday = halfday
+        self.latetime = lateholiday
+        self.overtime = overtime
+        
+
+    # Mutators
+
+    def set_Emp_name(self,Emp_name):
+        self.Emp_name = Emp_name
+
+    def set_salary(self,salary):
+        self.number = number
+    
+    def set_holiday(self,holiday):
+        self.holiday = holiday
+
+    def set_halfday(self,halfday):
+        self.halfday = halfday
+    
+    def set_latetime(self,latetime):
+        self.latetime = latetime
+
+    def set_overtime(self,overtime):
+        self.overtime = overtime
+
+
+    #Accessor Methods
+
+    def get_Emp_name(self):
+        return self.Emp_name
+
+    def get_salary(self):
+        return self.salary
+    
+    def get_holiday(self):
+        return self.holiday
+
+    def get_halfday(self):
+        return self.halfday
+    
+    def get_latetime(self):
+        return self.latetime
+
+    def get_overtime(self):
+        return self.overtime
+
+    
